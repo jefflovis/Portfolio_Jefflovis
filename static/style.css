@@ -102,12 +102,12 @@ section#inicio {
 }
 
 section#inicio h2 {
-    font-size: 2.7rem;
+    font-size: 5rem;
 }
 
 section#inicio span#subtitle {
-    margin-right: 1rem;
-    font-size: 1.4rem;
+    margin-right: 6rem;
+    font-size: 2rem;
 }
 
 .text-shadow {
@@ -157,6 +157,7 @@ i.menu-mobile {
     i.menu-mobile {
         display: flex;
     }
+    
 
     section#inicio h2 {
         font-size: 2.5rem;
@@ -170,4 +171,18 @@ i.menu-mobile {
     #main {
         margin-left: 0;
     }
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 .3rem #00000050;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #021124;
 }
