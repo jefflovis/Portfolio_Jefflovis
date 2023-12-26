@@ -186,3 +186,11 @@ i.menu-mobile {
 *::-webkit-scrollbar-thumb {
     background-color: #021124;
 }
+
+.section-bg {
+    background-color: #eff5ff;
+}
+
+#hr {
+    margin-top: 40px;
+}
