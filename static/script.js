@@ -18,3 +18,26 @@ navItem.forEach(item => {
         body.classList.remove('menu-nav-active');
     });
 });
+
+
+// Animar os itens na tela que tiverem o atributo data-anime
+
+const itens = document.querySelectorAll('[data-anime]');
+
+const animeScroll = () => {
+    const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4);
+
+    itens.forEach((element) => {
+        if (windowTop > element.offsetTop) {
+            element.classList.add('animate');
+        } else {
+            element.classList.remove('animate');
+        }
+    });
+};
+
+animeScroll();
+
+window.addEventListener('scroll', () => {
+    animeScroll();
+});
