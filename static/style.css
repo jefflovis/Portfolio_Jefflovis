@@ -236,11 +236,11 @@ section#inicio h2 {
   }
   
   .carousel-control-prev{
-    margin-left: -7rem;
+    margin-left: 0;
   }
   
   .carousel-control-next{
-    margin-right: -7rem;
+    margin-right: 0;
   }
   
   .carousel-indicators{
